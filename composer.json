@@ -1,0 +1,14 @@
+{
+    "name": "moneynet/moneynet",
+    "description": "Libreria MNet per PHP.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Moneynet\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
